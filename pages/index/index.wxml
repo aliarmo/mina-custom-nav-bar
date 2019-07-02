@@ -1,0 +1,5 @@
+<view>
+    <CustomBar height="40" containerClass="containerClass">
+      <input type="text" placeholder="输入" class="mod-input"></input>
+    </CustomBar>
+  </view>

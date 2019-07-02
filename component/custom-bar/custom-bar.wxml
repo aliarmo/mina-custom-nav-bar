@@ -1,0 +1,7 @@
+<view class="nav_container">
+    <view style="padding-top:{{paddingTop}};height:{{heightPx}}"  class="nav_occupy"    ></view>
+    <view style="padding-top:{{paddingTop}};height:{{heightPx}};bgColor:{{bgColor}}"  class="nav {{containerClass}} {{isCenter ? 'layoutCenter' : ''}}"  
+     >
+      <slot></slot>
+    </view>
+  </view>

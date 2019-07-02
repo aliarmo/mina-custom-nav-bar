@@ -1,0 +1,23 @@
+
+.nav_container {
+  flex: 0 0 auto;
+}
+.nav {
+  width: 100%;
+  box-sizing: content-box;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  /* background-color: #212738; */
+  /* border: 1px solid red; */
+}
+.nav_occupy {
+  width: 100%;
+  box-sizing: content-box;
+  flex: 0 0 auto;
+}
+.layoutCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
